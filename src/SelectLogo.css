@@ -1,0 +1,104 @@
+.select-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.select-logo__buttons {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.select-logo__label {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.select-logo__display {
+}
+
+.select-logo__colors-button {
+  position: relative;
+  width: 280px;
+  height: 100px;
+  font-size: 40px;
+  background: #cecece;
+  border-radius: 10px;
+  border: 0;
+  background-image: linear-gradient(
+      to right,
+      #3056ff 0%,
+      #3056ff 33%,
+      #000000 33%,
+      #000000 66%,
+      #871c1c 67%,
+      #871c1c 100%
+    ),
+    url(./images/arrow-down-4.png);
+  background-position: center bottom, right top;
+  background-size: 280px 60px, 60px 40px;
+  background-repeat: no-repeat, no-repeat;
+  padding: 0 0 0 0;
+  color: white;
+  border: 2px solid #737373;
+}
+
+.select-logo__colors-button:hover {
+  opacity: 0.7;
+}
+
+.select-logo__colors-button_clicked {
+  opacity: 0.7;
+
+  background-image: linear-gradient(
+      to right,
+      #3056ff 0%,
+      #3056ff 33%,
+      #000000 33%,
+      #000000 66%,
+      #871c1c 67%,
+      #871c1c 100%
+    ),
+    url(./images/arrow-up-4.png);
+}
+
+.select-logo__colors-button-text {
+  text-align: left;
+  padding-left: 6px;
+  position: relative;
+  font-size: 33px;
+  left: 0px;
+  top: -30px;
+}
+
+.select-logo__presentation {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+}
+
+.select-logo__upload-button {
+  background-image: url("./images/upload-logo.png");
+  background-size: 130px 130px;
+  background-repeat: no-repeat;
+  background-color: #cecece;
+  border: 2px solid #737373;
+  border-radius: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+.select-logo__upload-button:hover {
+  opacity: 0.7;
+}
+
+.select-logo__logo {
+  width: 100px;
+}
+
+.select-logo__display-product-name {
+  text-align: center;
+  font-size: 60px;
+}

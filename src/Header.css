@@ -1,0 +1,16 @@
+.header {
+  font-size: 30px;
+  border-bottom: 3px solid #d9d9d9;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header__welcome {
+  padding: 0;
+  margin: 0;
+}
+
+.header__description {
+  padding: 0;
+  margin: 0;
+}
